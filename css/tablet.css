@@ -1,0 +1,45 @@
+.nav-container nav .logo-nav img {
+  width: 35vw;
+}
+.nav-container nav .menu ul li a {
+  font-size: 2.5rem;
+}
+
+main .hero .hero-title div h1 {
+  font-size: 5.5rem;
+}
+main .hero .hero-title div h2 {
+  font-size: 3.5rem;
+}
+main .hero .hero-image img {
+  width: 70vw;
+}
+main .catalogue .catalogue-image img {
+  width: 70vw;
+}
+main .about-us .about-us-img {
+  display: flex;
+  justify-content: center;
+}
+main .about-us .about-us-img img {
+  width: 80vw;
+  border-radius: 8px;
+}
+main .contact .contact-image img {
+  width: 80vw;
+  border-radius: 8px;
+}
+main .contact .contact-title h2 {
+  padding-top: 30px;
+}
+main .contact .contact-title p {
+  padding: 20px 30px;
+}
+main .contact .contact-title a button {
+  width: 300px;
+  height: 60px;
+}
+
+footer .logo-footer img {
+  width: 20vw;
+}/*# sourceMappingURL=tablet.css.map */

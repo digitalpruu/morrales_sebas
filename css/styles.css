@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.nav-container {
+  width: 100%;
+  height: auto;
+  background: rgba(30, 144, 237, 0.831372549);
+}
+.nav-container nav .logo-nav {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.nav-container nav .logo-nav img {
+  width: 60vw;
+}
+.nav-container nav .menu {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
+}
+.nav-container nav .menu ul li {
+  padding: 10px 0;
+  list-style: none;
+}
+.nav-container nav .menu ul li a {
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+.nav-container nav .menu ul li a:hover {
+  color: black;
+  transform: scale(2.1);
+}
+
+main {
+  width: 100%;
+}
+main .hero {
+  padding-bottom: 60px;
+}
+main .hero .hero-title {
+  color: black;
+  padding-bottom: 32px;
+  text-align: center;
+}
+main .hero .hero-title div h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+main .hero .hero-title div h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+main .hero .hero-image {
+  display: flex;
+  justify-content: center;
+}
+main .hero .hero-image img {
+  width: 90vw;
+  border-radius: 16px;
+}
+main .product {
+  text-align: center;
+  padding: 60px 0;
+}
+main .product h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+main .product .product-section {
+  padding: 60px 10px;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
+main .product .product-section .product-card {
+  background-color: #1e91ed;
+  scroll-snap-align: center;
+  margin: 0 10px;
+  width: 40vw;
+  height: auto;
+  border-radius: 8px;
+}
+main .product .product-section .product-card .image-product {
+  display: flex;
+  justify-content: center;
+}
+main .product .product-section .product-card .image-product img {
+  padding: 15px 5px;
+  width: 35vw;
+  border-radius: 16px;
+}
+main .product .product-section .product-card h3 {
+  padding-left: 10px;
+  text-align: start;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+main .catalogue {
+  padding: 60px 0;
+  text-align: center;
+}
+main .catalogue h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+main .catalogue img {
+  width: 100%;
+}
+main .about-us {
+  padding-top: 60px;
+  background-color: #9eb6c8;
+}
+main .about-us .about-us-text {
+  text-align: center;
+  padding-bottom: 20px;
+}
+main .about-us .about-us-text h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+main .about-us .about-us-text p {
+  font-size: 1.8rem;
+  padding: 20px 5px;
+  font-weight: 500;
+}
+main .about-us .about-us-img img {
+  width: 100vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .contact {
+  padding: 60px 0;
+  text-align: center;
+  border-top: 1px solid black;
+}
+main .contact .contact-image img {
+  width: 100vw;
+}
+main .contact .contact-title h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+main .contact .contact-title p {
+  font-size: 1.8rem;
+  padding: 30px 5px;
+  font-weight: 500;
+}
+main .contact .contact-title a button {
+  font-weight: bold;
+  background: rgb(0, 197, 30);
+  border-style: none;
+  font-size: 2rem;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 4px;
+  width: 80vw;
+  height: auto;
+}
+main .contact .contact-title a button:hover {
+  background: rgb(0, 142, 21);
+  transform: scale(1.1);
+}
+
+footer {
+  padding: 0 10px;
+  background: linear-gradient(207.8deg, #1e91ed 16.69%, #9eb6c8 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .social-media {
+  text-align: center;
+}
+footer .social-media h3 {
+  padding: 15px 0;
+  font-size: 2.5rem;
+  color: black;
+}
+footer .social-media .social-icons a img {
+  width: 15vw;
+  padding: 5px 5px;
+}
+footer .social-media .social-icons a img:hover {
+  transform: scale(2.1);
+}
+footer .number {
+  text-align: center;
+  padding: 30px 0;
+}
+footer .number p {
+  font-size: 2rem;
+  font-weight: 600;
+  color: black;
+}
+footer .logo-footer {
+  padding: 5px 0;
+}
+footer .logo-footer img {
+  width: 35vw;
+}/*# sourceMappingURL=styles.css.map */

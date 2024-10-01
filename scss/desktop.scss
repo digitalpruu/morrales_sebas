@@ -1,0 +1,152 @@
+.nav-container{
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo-nav{
+            padding: 0;
+            padding-left: 10px;
+            img{
+                width: 10vw;
+            }
+        }
+        .menu{
+            display: flex;
+            gap: 25px;
+            padding-right: 20px;
+            ul{
+                li{
+                    a{
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+main{
+    .hero{
+        display: flex;
+        .hero-title{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            div{
+                h1{
+                    font-size: 7rem;
+                }
+                h2{
+                    font-size: 3.5rem;
+                }
+            }
+            
+        }
+        .hero-image{
+            width: 50%;
+            img{
+                margin: 0 auto;
+                border-radius: 0;
+                width: 100%;
+            }
+        }
+    }
+
+    .product{
+        .product-section{
+            .product-card{
+                width: 30vw;
+                .image-product{
+                    img{
+                        width: 25vw;
+                    }
+                }
+                h3{
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+
+    .catalogue{
+        .catalogue-image{
+            img{
+                width: 50vw;
+            }
+        }
+    }
+
+    .about-us{
+        padding: 90px 5px;
+        display: flex;
+        align-items: center;
+        .about-us-text{
+            width: 50%;
+            h2{
+                font-size: 4rem;
+                font-weight: bold;
+                padding-bottom: 30px;
+            }
+            p{
+                font-size: 2rem;
+                padding: 10px 30px;
+            }
+        }
+        .about-us-img{
+            width: 50%;
+            img{
+                width: 45vw;
+            }
+        }
+    }
+
+    .contact{
+        border-top: 1px solid black;
+        padding: 60px 40px;
+        display: flex;
+        .contact-image{
+            width: 50%;
+            img{
+                width: 40vw;
+            }
+        }
+        .contact-title{
+            width: 50%;
+            p{
+                font-size: 2rem;
+                padding: 30px 0;
+            }
+            a{
+                button{
+                    width: 300px;
+                }
+            }
+        }
+    }
+}
+
+
+footer{
+    flex-direction: row;
+    justify-content: space-between;
+    .social-media{
+        .social-icons{
+            a{
+                img{
+                    width: 5vw;
+                    &:hover{
+                        transform: scale(1.1);  
+                    }
+                }
+            }
+        }
+    }
+    .logo-footer{
+        img{
+            width: 10vw;
+        }
+    }
+}
